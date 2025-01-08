@@ -35,9 +35,11 @@ Pretty self explanatory. Now that some Battle Conditions are permanently present
 # Process
 In case people are curious how I am doing these. I am organizing the data in Excel, then for the PNGs I use Excels "Copy as Image" feature
 ![alt text][CopyAsImageLocation] ![alt text][CopyAsImageSettingsPNG]
+
 This copies the image to the clipboard. I then use [Paint.NET](https://www.getpaint.net/index.html) and paste the image there, increasing the document size when asked. There is a transparent border that I select using the wand tool. Ctrl + I inverses the selection and then Ctrl + Shift + X resizes the document to fit the selection. From there I just "Save as" to export.
 
 For the vector graphics I recently found out that the standard option to copy an image in Excel actually is a vector graphics. I copy that and then paste that into [Inkscape](https://inkscape.org/). From there I simply save the file.
+
 ![alt text][CopyAsImageSettingsSVG]
 
 In retrospect it's kind of obvious, but this doesn't work too well with images that are in the table. Those I do need to manually replace in both version. I also don't know yet where the random `%` signs come from, so don't worry about them.
